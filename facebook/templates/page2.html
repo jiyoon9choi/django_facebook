@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>page list</title>
+</head>
+<body>
+
+<style>
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   color: black;
+   height: 50px;
+   border-bottom: solid 1px gray;
+   text-align: center;
+
+}
+
+.header a {
+
+   color: black;
+   float: left;
+   width: 30%;
+   padding-top: 17px;
+
+}
+
+.container {
+   width: 70%;
+   background-color: gainsboro;
+   height: 700px;
+   float: left;
+   }
+
+.padding {
+   padding: 10px;
+}
+
+h1 {
+   font-weight: 300;
+   font-size: 30px;
+}
+span {
+   color: darkgray;
+   font-size: 15px;
+   font-weight: 800;
+}
+
+.home {
+   padding: 3px;
+   margin: 3px;
+   border: 1px solid gray;
+   background-color: azure;
+}
+
+.event {
+   padding: 3px;
+   margin: 3px;
+}
+
+.sidebar {
+   width: 30%;
+   float: right;
+   background-color: lightslategray;
+   height: 700px;
+   text-align: center;
+}
+
+img {
+   margin-top: 10px;
+}
+
+a {
+   text-decoration: none;
+}
+
+</style>
+
+<div class="header">
+   <a href="http://127.0.0.1:8000/">페이지</a>
+   <a href="#">받은 메세지함</a>
+   <a href="#">알림</a>
+</div>
+
+<div class="container">
+   <div class="padding">
+       <h1>코알라-코딩 좀 알려주라</h1>
+       <span>@coalastudy</span>
+       <div class="home">홈</div>
+       <div class="event">이벤트</div>
+   </div>
+</div>
+
+<div class="sidebar">
+   <a class=camera href="#"><img src="/static/camera.png" alt="camera" width="40px"></a>
+</div>
+</body>
+</html>
+
